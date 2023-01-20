@@ -8,7 +8,8 @@
     "build": "tsc && npm run lint && vite build",
     "lint": "npm run lint:es && npm run lint:css",
     "lint:es": "eslint src/**/*.{ts,tsx}",
-    "lint:css": "stylelint src/**/*.scss"
+    "lint:css": "stylelint src/**/*.scss",
+    "prod": "vite build && vite preview"
   },
   "dependencies": {
     "@emotion/react": "^11.10.5",
